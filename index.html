@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS Links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>BT5</title>
+  </head>
+  <body>
+
+    <header class="bg-secondary py-4 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <a class="nav-link text-white " href="index.html"><h3>Bootstrap</h3></a>
+          </div>
+          <div class="col-lg-10"></div>
+        </div>
+        
+      </div>
+      
+    </header>
+
+
+
+    <h1 class="text-center my-5 border border-2 bg-primary">Caresoul(with indicator)</h1>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          
+          <div id="carouselexpindicators" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselexpindicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+             <button type="button" data-bs-target="#carouselexpindicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+             <button type="button" data-bs-target="#carouselexpindicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+    <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img src="image/m.jpg" class="d-block w-100" alt="M">
+          </div>
+    <div class="carousel-item">
+      <img src="image/night_city.jpg" class="d-block w-100" alt="Night_city">
+    </div>
+    <div class="carousel-item">
+      <img src="image/window.jpg"  class="d-block w-100" alt="cave-fire">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselexpindicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselexpindicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <h1 class="text-center my-5 border border-2 bg-primary">Caresoul(Slider with Caption)</h1>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+
+
+        <div id="carouselcaption" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselcaption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselcaption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselcaption" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+     <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/window.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+      <div class="carousel-item">
+        <img src="image/m.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+    <div class="carousel-item">
+      <img src="image/night_city.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselcaption" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselcaption" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1 class="text-center my-5 border border-2 bg-primary">Caresoul(individul interval)</h1>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+
+        <div id="carouselinterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="image/window.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="image/m.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/night_city.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselinterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselinterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h1 class="text-center my-5 border border-2 bg-primary">Collapse(Single target)</h1>
+
+<section>
+  <div class="container collapse146 my-5">
+    <div class="row">
+      <div class="col-lg-12">
+
+        <p>
+          <a class="btn btn-primary mx-5" data-bs-toggle="collapse" href="#collapseExa" role="button" aria-expanded="false" aria-controls="collapseExa">Link with herf</a>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExa" aria-expanded="false" aria-controls="collapseExa">Button with data-bs-target</button>
+        </p>
+
+        <div class="collapse" id="collapseExa">
+          <div class="crad card-body border border-2 rounded">
+            Some placeholder content for the collapse compsnent . This panel is hidden by  default but reveald trigger.            
+          </div>          
+        </div>     
+      </div>      
+    </div>    
+  </div>
+</section>
+
+<h1 class="text-center my-5 border border-2 bg-primary">Collapse(Multiple targets)</h1>
+
+<section>
+  <div class="container collapse146 my-5">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>
+          <a class="btn btn-primary" data-bs-toggle="collapse"  href="#multicollapseExa" role="button" aria-expanded="false" aria-controls="multicollapseExa">Toggel first element</a>
+
+          <button class="btn btn-primary mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#multicollapseExa" aria-expanded="false" aria-controls="multicollapseExa2">TOggle second element</button>
+
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multicollapseExa multicollapseExa2">TOggle both elements</button>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multicollapseExa">
+              <div class="card card-body">
+                Some placeholder content for the first collapse component of this multi-collapse example.This panel is hidden bu default but revealed when the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multicollapseExa2">
+              <div class="card card-body">
+                Some placeholder content for the second collapse component of this muti-collapse example.This panel is hidden bu default but revealed when the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>         
+        </div>      
+      </div>      
+    </div>   
+  </div>
+</section>
+
+<h1 class="text-center my-5 border border-2 bg-primary">Modal(Live demo)</h1>
+
+<section>
+  <div class="container collapse146 my-5">
+    <div class="row">
+      <div class="col-lg-12">
+
+        <!-- Button trigger modal -->
+        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exaModal">Launce demo modal</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exaModal" tabindex="-1" aria-labelledby="exaModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+           <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-tital" id="exaModalLabel">Modal tital</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-lable="close"></button>             
+            </div>
+            <div class="modal-body">
+              MYself Minhajul Arafin Sakib.             
+            </div> 
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save change</button>             
+            </div>            
+           </div> 
+          </div>
+        </div>         
+      </div>      
+    </div>   
+  </div>
+</section>
+
+<h1 class="text-center my-5 border border-2 bg-primary">OffCanvas(Backdrop)</h1>
+
+<section>
+  <div class="container collapse146 my-5">
+    <div class="row">
+      <div class="col-lg-12">
+        
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrollingexa" aria-controls="offcanvasScrollingexa">Enable body scrolling</button>
+
+        <button class="btn btn-primary mx-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvaswithBackdropexa" aria-controls="offcanvaswithBackfropexa">Enable backdrop (default)</button>
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvaswithBothOptionsexa" aria-controls="offcanvaswithBothOptionsexa">Enable both scrolling & backdrop</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrollingexa" aria-labelledby="offcanvasScrollingexaLabel">
+          <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offcanvasScrollingexaLabel">Colored with scrolling</h5>
+             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+            <p>Try scrolling the rest of the page to see this option in action.</p>
+         </div>
+       </div>
+
+       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvaswithBackdropexa" aria-labelledby="offcanvaswithBackdropexaLabel">
+         <div class="offcanvas-header">
+           <h5 class="offcanvas-title" id="offcanvaswithBackdropexaLabel">Offcanvas with backdrop</h5>
+           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+           <p>Hi , Myself Minhajul Arafin Sakib.</p>
+         </div>
+       </div>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvaswithBothOptionsexa" aria-labelledby="offcanvaswithBothOptionsexaLabel">
+         <div class="offcanvas-header">
+           <h5 class="offcanvas-title" id="offcanvaswithBothOptionsexaLabel">Backdroped with scrolling</h5>
+           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+           <p>Try scrolling the rest of the page to see this option in action.</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="">
+  <div class="container collapse146 border border-2 border-dark my-5 py-5">
+    <div class="row">
+      <div class="col-lg-12">
+               
+        <a href="#offcanvasexa" class="btn btn-primary mx-5" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasexa">Link with href</a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasexa" aria-controls="offcanvasexa">Button with data-bs-target</button>
+          
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasexa" aria-labelledby="offcanvasexaLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasexaLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+              <div>
+                 Some text as placeholder. In real life you can have the elements you  have chosen. Like, text, images, lists, etc.
+              </div>
+           <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Dropdown button</button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                     <li><a class="dropdown-item" href="#">Action</a></li>
+                     <li><a class="dropdown-item" href="#">Another action</a></li>
+                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- JS Links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
